@@ -1,0 +1,15 @@
+{
+  "name": "pomodoro",
+  "displayName": "Pomodoro",
+  "description": "A focus timer in the status bar: 25 minutes of work, 5 of rest.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "access": "sandboxed",
+  "permissions": [],
+  "keymap": { "Mod-Alt-t": "pomodoro:toggle" },
+  "configSchema": {
+    "workMinutes": { "type": "number", "default": 25, "title": "Work Minutes" },
+    "breakMinutes": { "type": "number", "default": 5, "title": "Break Minutes" }
+  },
+  "license": "MIT"
+}
